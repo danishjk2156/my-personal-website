@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+     
+        
+        * {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  margin: 0%;
+    padding: 0%;
+    
+    
+     }#head{
+        font-size: x-large;
+        background-image: url("img/bg3.jpg");
+        height: 200px;
+        padding-top: 1%;
+        color: whitesmoke;
+        padding-left: 10%;
+        padding-bottom: 10%;
+        
+        
+     }h1,h2{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+         }#photo{
+        display: inline;
+        margin-left: 35%;
+        margin-right: 35%;
+        width: 25%;
+        height: 25%;
+        border-radius: 50%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        transition: 1s;
+        
+     }img{
+        display: inline;
+       
+       
+        transition: 1s;
+
+     }img:hover{
+        transform: scale(1.1);
+     }
+     
+     
+     
+     #photo:hover{
+        transform:scale(1.2);
+        z-index: 2;
+
+     }img{
+        margin-top: 3%;
+        margin-bottom: 3%;
+     }.ski{
+        padding-top: 5%;
+      
+        
+        
+       
+        
+        
+     }#abt{
+        
+       display: grid;
+        height: 40vh;
+        grid-template-columns: 50% 50%;
+        grid-template-rows:10% 20%;
+        margin-top: 10%;
+     }#sk{
+        margin-left: 60%;
+     }#ab{
+        grid-column: 1/2;
+        grid-row: 2/2;
+        
+        object-fit: cover;
+
+        
+     }#abt>p{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding-left: 20%;
+        padding-right: 20%;
+     }#abt>h2{
+        grid-row: 1/2;
+        grid-column: 2/3;
+        padding-left: 20%;
+     }.btn{
+        margin-left: 45%;
+        margin-top: 10%;
+     }button:hover{
+        transform: scale(1.1);
+        box-shadow: 2px;
+
+     }footer{
+        text-align: center;
+        margin-top: 10%;
+     }.cont{
+        background-color: #106EBE;
+        width: 100%;
+        padding-left: 3%;
+
+     }.a{
+        color: #0FFCBE;
+     }.b{
+        color: white;
+     } @media(min-width:120px) and (max-width:480px) {
+        .cont{
+            display: block;
+            
+        }#ab{
+            width: 100%;
+        }#sk{
+            width: 40%;
+        }#head{
+            height: 40vh;
+        }
+     }@media(min-width:481px) and (max-width:1200px) {
+        #sk{
+            width: 40%;
+        }
+     }
+
+    </style>
+</head>
+<body>
+    <div id="head">
+    <h2>I AM</h2>
+    <h1>MUHAMMAD DANISH</h1>
+    <p>i am a computer science student in crescent university</p>
+</div>
+<img id="photo" src="./img/prfile.png">
+<div class="cont">
+<div class="ski">
+<h2 class="b">SKILLS</h2>
+<p class="a">i know html, css and java this is my first website.</p>
+</div> <img id="sk"src="./img/hcj.png">
+ 
+<div id="abt">
+<h2 class="b">ABOUT</h2>
+<p class="a">I am a very hardworking person and i like to learn  new things. I aspire to achieve great heights</p>
+<img id="ab"src="./img/7m.jpg">
+</div>
+<button class="btn btn-primary rounded-pill px-3" type="button">Hire Me</button>
+<footer>@danishjk2156@gmail.com</footer>   
+</div></body>
+</html>
